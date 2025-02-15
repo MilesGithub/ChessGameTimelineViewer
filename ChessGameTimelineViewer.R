@@ -170,7 +170,7 @@ for(i in 1:length(pgn_files)){
     xlim(0, total_time_used) +  # Dynamically set x-axis limit
     scale_x_continuous(breaks = seq(0, total_time_used, by = 10)) +
     theme_minimal() +
-    theme(plot.margin = margin(0, 20, 10, 42),
+    theme(plot.margin = margin(0, 20, 10, 38),
           panel.background = element_rect(fill = "#f9f9f9"),
           axis.text.y = element_blank(),
           axis.ticks.y = element_blank(),
